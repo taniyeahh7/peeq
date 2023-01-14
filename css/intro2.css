@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.div-left{
+    width:60%;
+}
+
+.div-right{
+    width:40%;
+    height:100%;
+    background-color: #3547A3;
+}
+
+.div-right>h3{
+    font-family: poppins;
+    color: #3547A3;
+}
