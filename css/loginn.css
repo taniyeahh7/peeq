@@ -62,3 +62,31 @@ input{
     border-radius:0.5rem;
     height: 2rem;
 }
+
+@media only screen and (max-width: 400px) {
+    button.button-submit{
+    /* font-size: 14px; */
+    /* padding: 0 6rem; */
+    border-radius: 1rem;
+    width: 80%;
+}
+}
+
+@media only screen and (max-width: 400px) {
+    .username {
+    /* font-size: 14px; */
+    /* padding: 0 6rem; */
+    border-radius: 1rem;
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 400px) {
+    .password {
+        /* background-image: url("../images/landing-bg.png"); */
+    /* font-size: 14px; */
+    /* padding: 0 6rem; */
+    border-radius: 1rem;
+    width: 100%;
+}
+}

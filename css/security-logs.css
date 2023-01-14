@@ -68,3 +68,17 @@ a{
     text-decoration: none;
     color: aliceblue;
 }
+
+
+@media only screen and (max-width: 400px) {
+    button.button-signout {
+      font-size: 14px;
+      /* padding: 0 6rem; */
+      border-radius: 2rem;
+      width: 25%;
+      margin-top: 1.8rem;
+    }
+  }
+
+
+

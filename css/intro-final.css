@@ -2,15 +2,16 @@
 
 
 body{
-    background-image: url("../images/intro-trial.png");
-    background-repeat:none !important;
+    background-image: url("../images/intro-new.png");
+    /* background-repeat:none !important; */
+    background-repeat: no-repeat;
     background-size:cover;
     font: poppins;
 }
 
 .fixed-vector{
     width: 40%;
-    margin-top: 5%;
+    margin-top: 4.5%;
     margin-left: 9%;
 }
 
@@ -27,13 +28,19 @@ a{
     border-radius:2rem;
     height:4rem;
     width:11%;
+    /* border-width: 1rem; */
     font-family:poppins;
     background-color: #3547A3;
     color:white !important;
-    margin-top:0.7rem;
-    margin-left: 74%;
+    margin-top:0.2rem;
+    margin-left: 77.3%;
     font-size: 1.5rem;
 }
+
+/* .btndisp1:hover{
+  transition: 0.3s;
+  background-color: #fff;
+} */
 
 .btndisp2{
     border-radius:2rem;
@@ -42,6 +49,38 @@ a{
     font-family:poppins;
     color: #3547A3;
     background-color:white !important;
-    margin-left: 74%;
+    /* margin-top: 30%; */
+    margin-left: 77.3%;
     font-size: 1.5rem;
 }
+
+/* @media screen and (min-width: 11.5rem),
+        screen and (min-height:2rem){
+    div.nav-item {
+      font-size: medium;
+    }
+  }
+  
+@media screen and (max-width: 11.5rem),
+        screen and (max-width:4rem) {
+div.nav-item {
+    font-size: medium;
+}
+}
+
+
+  @media screen and (min-height: 17rem) {
+    button.btndisp1 {
+      width: 5rem;
+      height:2.5rem;
+    }
+  }
+  
+  @media screen and (min-width: 17rem) {
+    button.btndisp2 {
+      width: 5rem;
+      height:2.5rem;
+    }
+  } */
+
+

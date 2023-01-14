@@ -106,6 +106,8 @@ body{
     background-size: cover;
 }
 
+
+
 .button-signout{
     border-radius: 2rem;
     border-width:0;
@@ -113,8 +115,8 @@ body{
     width:10%;
     height:3rem;
     color:white;
-    margin-top:0.0001%;
-    margin-left: 78%;
+    /* margin-top:0.0001%;
+    margin-left: 78%; */
     font-size: medium;
 }
 
@@ -123,9 +125,11 @@ body{
     align-items: center;
     flex-direction: column;
     gap:2rem;
-    margin-top:5rem;
+    margin-top:7rem;
     
 }
+
+
 
 .butt-security{
     border-radius:2rem;
@@ -135,7 +139,6 @@ body{
     background-color: #3547A3;
     border-width:0;
     color:white;
-    margin-top:0.1rem;
     font-size: large;
 }
 
@@ -190,7 +193,7 @@ a{
 
 .topnav{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     margin-top:1rem;
 }
 
@@ -198,3 +201,59 @@ a{
     text-decoration: none;
     color:white;
 }
+
+@media only screen and (max-width: 400px) {
+    button.butt-security {
+      font-size: 14px;
+      /* padding: 0 6rem; */
+      border-radius: 2rem;
+      width: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    button.butt-employees {
+      font-size: 14px;
+      /* padding: 0 6rem; */
+      border-radius: 1rem;
+      width: 60%;
+    }
+  }
+
+
+  @media only screen and (max-width: 400px) {
+    button.butt-employees {
+      font-size: 14px;
+      /* padding: 0 6rem; */
+      border-radius: 2rem;
+      width: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    button.butt-locations {
+      font-size: 14px;
+      /* padding: 0 6rem; */
+      border-radius: 2rem;
+      width: 60%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    button.mega-text {
+      font-size: 14px;
+      /* padding: 0 6rem; */
+      border-radius: 1rem;
+      width: 60%;
+      /* margin-top:0.1rem; */
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    button.button-signout {
+      font-size: 14px;
+      /* padding: 0 6rem; */
+      border-radius: 2rem;
+      height:2.5rem;
+      width: 30%;
+      margin-top:0.3rem;
+    }
+  }

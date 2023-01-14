@@ -57,3 +57,21 @@ input{
     color:#3547A3;
     font-size: x-large;
 }
+
+@media only screen and (max-width: 400px) {
+    div.div-signup{
+      font-size: 14px;
+      /* padding: 0 6rem; */
+      border-radius: 1rem;
+      width: 40%;
+    }
+  }
+
+@media only screen and (max-width: 400px) {
+    button.button-submit{
+    /* font-size: 14px; */
+    /* padding: 0 6rem; */
+    border-radius: 1rem;
+    width: 80%;
+}
+}
