@@ -28,6 +28,13 @@
     background-color: aqua;
 } */
 
-div-righ-body>h2{
+div-right-body>h2{
     left:90%;
+}
+
+.intro-vector{
+    height:34%;
+    width:34%;
+    margin-top:14%;
+    margin-left:8%;
 }
