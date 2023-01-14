@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.div-left{
+    width:50%;
+    /* height: 100%; */
+}
+.div-right{
+    width:50%;
+    /* height: 100%; */
+    color: black;
+}
+
+.div-right-body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 30%;
+    left: 80%;
+    flex-direction: column;
+    font-family: poppins;
+}
+
+/* .butt-contact{
+    background-color: blue;
+}
+
+.butt-login{
+    background-color: aqua;
+} */
+
+div-righ-body>h2{
+    left:90%;
+}
