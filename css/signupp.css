@@ -9,10 +9,10 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column; 
-    column-width: 5rem;
-    margin-top: 5%;
+    column-width: 6rem;
+    margin-top: 3%;
     margin-left: 60%;
-    width:15%;
+    width:20%;
     font-size: large;
 }
 .div-names{
@@ -21,11 +21,73 @@ body{
     width:2%;
 }
 
+.fname:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.lname:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.designation:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.email:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.number:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.location:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.password:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.cpassword:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 p{
     color: #3547A3;
     font-family:poppins;
     font-size: large;
 }
+
+/* p:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+} */
 
 
 .div-login>p{
@@ -45,12 +107,18 @@ input{
 
 .button-submit{
     border-radius:1rem;
-    height:2rem;
-    width:40%;
+    height:2.3rem;
+    width:43%;
     border-width: 0rem;
     background-color:#3547A3;
     font-family: poppins;
-    
+    margin-left:0.3rem;
+}
+
+.button-submit:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    transition:0.3s;
 }
 
 .div-signup>p{

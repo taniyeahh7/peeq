@@ -35,7 +35,7 @@ body{
     /* padding-bottom: 0.74rem;
     padding-top: 0.75rem; */
     vertical-align: top;
-    margin-top:1.5rem;    
+    margin-top:1.6rem;    
     margin-left: 84%;
     font-family: poppins;
     background-color: #3547A3;;
@@ -43,6 +43,14 @@ body{
     font-size: large;
     line-height: normal;
     padding-bottom: 0;
+}
+
+
+.button-signout:hover{
+    transition: 0.3s;
+    background-color: #4857a5;
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 table,th,td{
@@ -80,5 +88,13 @@ a{
     }
   }
 
-
+  @media only screen and (max-width: 400px) {
+    .style-tab {
+      font-size: 14px;
+      /* padding: 0 6rem; */
+      border-radius: 2rem;
+      width: 25%;
+      margin-top: 1.8rem;
+    }
+  }
 

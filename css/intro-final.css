@@ -26,7 +26,7 @@ a{
 
 .btndisp1{
     border-radius:2rem;
-    height:4rem;
+    height:3.6rem;
     width:11%;
     /* border-width: 1rem; */
     font-family:poppins;
@@ -37,14 +37,18 @@ a{
     font-size: 1.5rem;
 }
 
-/* .btndisp1:hover{
+.btndisp1:hover{
   transition: 0.3s;
-  background-color: #fff;
-} */
+  background-color: #4857a5;
+  cursor: pointer;
+  transform: scale(1.05);
+  color:black;
+}
 
 .btndisp2{
     border-radius:2rem;
-    height:4rem;
+    border-width:0rem;
+    height:3.6rem;
     width:11%;
     font-family:poppins;
     color: #3547A3;
@@ -52,6 +56,14 @@ a{
     /* margin-top: 30%; */
     margin-left: 77.3%;
     font-size: 1.5rem;
+}
+
+.btndisp2:hover{
+  background-color: #3547A3;
+  transition:0.3s;
+  background-color: #3547A3;
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 /* @media screen and (min-width: 11.5rem),
